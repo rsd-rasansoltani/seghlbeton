@@ -5,7 +5,7 @@ paths:
   static: ''
 collections_config:
   pages:
-    path: /
+    path: /index.html
     glob:
       - '*.html'
     name:
@@ -15,11 +15,43 @@ collections_config:
     disable_url: false
     include_developer_files:
     documentation:
+      url:
+      text:
+      icon:
     description: ''
     preview:
+      text:
+      subtext:
+      icon:
+      icon_color:
+      image:
+      metadata:
+      gallery:
     sort:
     sort_options:
     _editables:
+      text:
+        allow_custom_markup: true
+        remove_custom_markup: true
+        bold: true
+        copyformatting: true
+        italic: true
+        link: true
+        paths:
+          uploads:
+          uploads_filename:
+          uploads_use_relative_path:
+          static:
+          dam_uploads:
+          dam_uploads_filename:
+          dam_static:
+        redo: true
+        removeformat: true
+        strike: true
+        subscript: true
+        superscript: true
+        underline: true
+        undo: true
     _enabled_editors:
     _inputs:
     _select_data:
