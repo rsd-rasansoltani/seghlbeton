@@ -7,13 +7,15 @@ collections_config:
   pages:
     path: /
     glob:
+      - '*.html'
     name:
     singular_name:
     icon: notes
     url:
+    disable_url: false
     include_developer_files:
     documentation:
-    description:
+    description: ''
     preview:
     sort:
     sort_options:
